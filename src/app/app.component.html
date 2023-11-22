@@ -1,0 +1,5 @@
+<div *ngFor="let user of users">
+  <div *ngIf="user.age > 20">
+    {{ user.firstname }} {{ user.lastname }} ({{ user.age }})
+  </div>
+</div>
